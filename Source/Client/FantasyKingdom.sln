@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FantasyKingdom", "FantasyKingdom", "{F6C0526E-9FE6-4B07-B340-243315E431F1}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FantasyKingdom.Shared", "FantasyKingdom\FantasyKingdom.Shared\FantasyKingdom.Shared.shproj", "{1BBA7382-395F-44D1-9431-813384EAB491}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyKingdom.WindowsPhone", "FantasyKingdom\FantasyKingdom.WindowsPhone\FantasyKingdom.WindowsPhone.csproj", "{BD50ECA0-7F46-41E1-A407-56821F327B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasyKingdom.Universal", "FantasyKingdom\FantasyKingdom.Universal\FantasyKingdom.Universal.csproj", "{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -72,6 +74,26 @@ Global
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Release|x86.ActiveCfg = Release|x86
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Release|x86.Build.0 = Release|x86
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Release|x86.Deploy.0 = Release|x86
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|ARM.Build.0 = Debug|ARM
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|x64.ActiveCfg = Debug|x64
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|x64.Build.0 = Debug|x64
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|x64.Deploy.0 = Debug|x64
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|x86.ActiveCfg = Debug|x86
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|x86.Build.0 = Debug|x86
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Debug|x86.Deploy.0 = Debug|x86
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|Any CPU.ActiveCfg = Release|x86
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|ARM.ActiveCfg = Release|ARM
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|ARM.Build.0 = Release|ARM
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|ARM.Deploy.0 = Release|ARM
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|x64.ActiveCfg = Release|x64
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|x64.Build.0 = Release|x64
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|x64.Deploy.0 = Release|x64
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|x86.ActiveCfg = Release|x86
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|x86.Build.0 = Release|x86
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,5 +102,6 @@ Global
 		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC} = {F6C0526E-9FE6-4B07-B340-243315E431F1}
 		{1BBA7382-395F-44D1-9431-813384EAB491} = {F6C0526E-9FE6-4B07-B340-243315E431F1}
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B} = {F6C0526E-9FE6-4B07-B340-243315E431F1}
+		{F5067BEA-CFBD-4DA8-AB9E-9143A713DD9F} = {F6C0526E-9FE6-4B07-B340-243315E431F1}
 	EndGlobalSection
 EndGlobal
